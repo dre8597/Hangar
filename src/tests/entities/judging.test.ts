@@ -8,7 +8,7 @@ import { createJudgeData, createTeamData, visitTeamsAndJudge } from '../utilitie
 
 /* eslint-disable no-await-in-loop */
 
-// Bump Jest timeout to accomodate tabulation test matrix
+// Bump Jest timeout to accommodate tabulation test matrix
 jest.setTimeout(15000);
 
 describe('judging logistics', () => {
